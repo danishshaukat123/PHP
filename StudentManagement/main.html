@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <style>
+      body {
+        background-color: #0c120c;
+      }
+      div {
+        width: 100%;
+        height: 100vh;
+      }
+      button {
+        display: block;
+
+        margin-top: 1%;
+        height: 45%;
+        text-align: center;
+      }
+      .container {
+        margin-top: 10%;
+      }
+    </style>
+  </head>
+  <body>
+    <button
+      onclick="location.href='../index.php'"
+      type="button"
+      class="btn btn-secondary btn-lg"
+    >
+      GO BACK
+    </button>
+    <div class="container">
+      <div class="row">
+        <div class="col-4">
+          <button
+            onclick="location.href='create.php'"
+            style="background-color:#0DAB76"
+            type="button"
+            class="btn btn-secondary btn-lg"
+          >
+            ADD NEW STUDENT
+          </button>
+        </div>
+        <div class="col-4">
+          <button
+            onclick="location.href='read.php'"
+            style="background-color:#225560"
+            type="button"
+            class="btn btn-secondary btn-lg"
+          >
+            UPDATE STUDENT
+          </button>
+        </div>
+        <div class="col-4">
+          <button
+            onclick="location.href='reports.php'"
+            style="background-color:#E6AF2E"
+            type="button"
+            class="btn btn-secondary btn-lg"
+          >
+            VIEW REPORTS
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
